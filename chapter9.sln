@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFilesStreams", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTarArchives", "WorkingWithTarArchives\WorkingWithTarArchives.csproj", "{D03688F1-965F-4826-839E-058FFF62CA92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithEncodings", "WorkingWithEncodings\WorkingWithEncodings.csproj", "{56C4EE24-34D2-44B2-9F20-1DCA3DDF48DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithSerialization", "WorkingWithSerialization\WorkingWithSerialization.csproj", "{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{D03688F1-965F-4826-839E-058FFF62CA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D03688F1-965F-4826-839E-058FFF62CA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D03688F1-965F-4826-839E-058FFF62CA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C4EE24-34D2-44B2-9F20-1DCA3DDF48DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C4EE24-34D2-44B2-9F20-1DCA3DDF48DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C4EE24-34D2-44B2-9F20-1DCA3DDF48DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C4EE24-34D2-44B2-9F20-1DCA3DDF48DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

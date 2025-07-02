@@ -27,8 +27,25 @@ try
 
     WriteInformation($"Does {tarFile} exists? {File.Exists(tarFile)}");
 
-}
-catch
-{
+    if (!Directory.Exists(destinationDirectory))
+    {
+        Directory.CreateDirectory(destinationDirectory);
+        WriteWarning($"{destinationDirectory} did not exists so it was created");
+    }
 
+    WriteInformation($"Extracting archive: {tarFile}\n To directory: {destinationDirectory}");
+    TarFile.ExtractToDirectory(sourceFileName: tarFile, destinationDirectoryName: destinationDirectory, overwriteFiles: true);
+
+    if (Directory.Exists(destinationDirectory))
+    {
+        foreach (string dir in Directory.GetDirectories(destinationDirectory))
+        {
+            WriteInformation($"Extracted directory {dir} containing these files: " + string.Join(',', Directory.EnumerateFiles(dir).Select(file => Path.GetFileName(file))));
+        }
+    }
+
+}
+catch(Exception ex)
+{
+    WriteError(ex.Message);
 }
