@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithEncodings", "Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithSerialization", "WorkingWithSerialization\WorkingWithSerialization.csproj", "{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithJson", "WorkingWithJson\WorkingWithJson.csproj", "{B6901241-A901-41EC-810B-8963A3CF42EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E9739EE-A33C-415A-9D89-AC77FA8EDBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6901241-A901-41EC-810B-8963A3CF42EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6901241-A901-41EC-810B-8963A3CF42EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6901241-A901-41EC-810B-8963A3CF42EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6901241-A901-41EC-810B-8963A3CF42EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
